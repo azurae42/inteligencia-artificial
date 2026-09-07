@@ -4,4 +4,4 @@ Las entregas de actividades se encuentran en la carpeta 'assignments/'
 
 ## Entregas
 
-- Conceptos Basicos de IA, [Ejercicio 1. Aplicaciones de IA que uso o he usado.](./entregas/01 conceptos basicos/ej01_herramientas-ia.pdf)
+- Conceptos Basicos de IA, [Ejercicio 1. Aplicaciones de IA que uso o he usado.]("./entregas/01 conceptos basicos/ej01_herramientas-ia.pdf")
