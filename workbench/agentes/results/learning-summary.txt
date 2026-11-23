@@ -1,0 +1,136 @@
+=== results/06_learning_agent_results_12000.txt ===
+Trained 12000 episodes on config/mi_cueva_4x4.yaml
+Mean score (all): 329.5
+Mean score (last 50): 470.6
+Q-table size: 714 state-action pairs
+Action: Climb
+Step 20  Score 980.0  CLIMBED
+ 4 | .  W  .  . 
+ 3 | .  P  .  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward +999  (climbed_with_gold)
+----------------------------------------
+Result: climbed with gold  steps=20  score=980.0
+
+=== results/06_learning_agent_results_1500.txt ===
+Trained 1500 episodes on config/mi_cueva_4x4.yaml
+Mean score (all): -23.4
+Mean score (last 50): -22.2
+Q-table size: 462 state-action pairs
+Action: Climb
+Step 1  Score -1.0  CLIMBED
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (climbed_empty)
+----------------------------------------
+Result: climbed without gold  steps=1  score=-1.0
+
+=== results/06_learning_agent_results_16000.txt ===
+Trained 16000 episodes on config/mi_cueva_4x4.yaml
+Mean score (all): 409.0
+Mean score (last 50): 651.9
+Q-table size: 714 state-action pairs
+Action: Climb
+Step 20  Score 980.0  CLIMBED
+ 4 | .  W  .  . 
+ 3 | .  P  .  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward +999  (climbed_with_gold)
+----------------------------------------
+Result: climbed with gold  steps=20  score=980.0
+
+=== results/06_learning_agent_results_20000.txt ===
+Trained 20000 episodes on config/mi_cueva_4x4.yaml
+Mean score (all): 453.0
+Mean score (last 50): 689.9
+Q-table size: 720 state-action pairs
+Action: Climb
+Step 20  Score 980.0  CLIMBED
+ 4 | .  W  .  . 
+ 3 | .  P  .  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward +999  (climbed_with_gold)
+----------------------------------------
+Result: climbed with gold  steps=20  score=980.0
+
+=== results/06_learning_agent_results_2000.txt ===
+Trained 2000 episodes on config/mi_cueva_4x4.yaml
+Mean score (all): -18.6
+Mean score (last 50): -5.5
+Q-table size: 510 state-action pairs
+Action: Climb
+Step 1  Score -1.0  CLIMBED
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (climbed_empty)
+----------------------------------------
+Result: climbed without gold  steps=1  score=-1.0
+
+=== results/06_learning_agent_results_4000.txt ===
+Trained 4000 episodes on config/mi_cueva_4x4.yaml
+Mean score (all): -13.7
+Mean score (last 50): -1.8
+Q-table size: 522 state-action pairs
+Action: Climb
+Step 1  Score -1.0  CLIMBED
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (climbed_empty)
+----------------------------------------
+Result: climbed without gold  steps=1  score=-1.0
+
+=== results/06_learning_agent_results_6000.txt ===
+Trained 6000 episodes on config/mi_cueva_4x4.yaml
+Mean score (all): 6.9
+Mean score (last 50): 748.0
+Q-table size: 648 state-action pairs
+Action: Climb
+Step 20  Score 980.0  CLIMBED
+ 4 | .  W  .  . 
+ 3 | .  P  .  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward +999  (climbed_with_gold)
+----------------------------------------
+Result: climbed with gold  steps=20  score=980.0
+
+=== results/06_learning_agent_results_8000.txt ===
+Trained 8000 episodes on config/mi_cueva_4x4.yaml
+Mean score (all): 175.4
+Mean score (last 50): 667.0
+Q-table size: 714 state-action pairs
+Action: Climb
+Step 20  Score 980.0  CLIMBED
+ 4 | .  W  .  . 
+ 3 | .  P  .  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward +999  (climbed_with_gold)
+----------------------------------------
+Result: climbed with gold  steps=20  score=980.0
+

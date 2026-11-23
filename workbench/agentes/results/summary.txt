@@ -1,0 +1,65 @@
+==> ./results/01_wumpus_world_results.txt <==
+Step 0  Score 0  IN CAVE
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | >  .  .  . 
+      1  2  3  4
+Percept [None]
+
+Legend: >^v< agent  P pit  W wumpus  w dead wumpus  G gold  . empty  ## wall
+
+Loaded config/mi_cueva_4x4.yaml  (4x4)
+
+==> ./results/02_simple_reflex_agent_results.txt <==
+Action: TurnRight
+Step 200  Score -200.0  IN CAVE
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  ^  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (max_steps)
+----------------------------------------
+Result: stopped without gold  steps=200  score=-200.0
+
+==> ./results/03_model_based_agent_results.txt <==
+Action: TurnLeft
+Step 200  Score -200.0  IN CAVE
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  ^  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (max_steps)
+----------------------------------------
+Result: stopped without gold  steps=200  score=-200.0
+
+==> ./results/04_goal_based_agent_results.txt <==
+Action: TurnLeft
+Step 200  Score -200.0  IN CAVE
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  ^  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (max_steps)
+----------------------------------------
+Result: stopped without gold  steps=200  score=-200.0
+
+==> ./results/05_utility_based_agent_results.txt <==
+Action: Climb
+Step 32  Score 958.0  CLIMBED
+ 4 | .  w  .  . 
+ 3 | .  P  .  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward +999  (climbed_with_gold)
+----------------------------------------
+Result: climbed with gold  steps=32  score=958.0
+

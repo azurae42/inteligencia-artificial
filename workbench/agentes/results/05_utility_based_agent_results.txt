@@ -1,0 +1,330 @@
+Step 0  Score 0  IN CAVE
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | >  .  .  . 
+      1  2  3  4
+Percept [None]
+Agent: utility-based
+----------------------------------------
+Action: Forward
+Step 1  Score -1.0  IN CAVE
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  >  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (moved)
+----------------------------------------
+Action: TurnLeft
+Step 2  Score -2.0  IN CAVE
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  ^  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (ok)
+----------------------------------------
+Action: TurnLeft
+Step 3  Score -3.0  IN CAVE
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  <  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (ok)
+----------------------------------------
+Action: Forward
+Step 4  Score -4.0  IN CAVE
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | <  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (moved)
+----------------------------------------
+Action: TurnRight
+Step 5  Score -5.0  IN CAVE
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | ^  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (ok)
+----------------------------------------
+Action: Forward
+Step 6  Score -6.0  IN CAVE
+ 4 | .  W  .  . 
+ 3 | .  P  G  . 
+ 2 | ^  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (moved)
+----------------------------------------
+Action: Forward
+Step 7  Score -7.0  IN CAVE
+ 4 | .  W  .  . 
+ 3 | ^  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (moved)
+----------------------------------------
+Action: Forward
+Step 8  Score -8.0  IN CAVE
+ 4 | ^  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Stench]
+Reward -1  (moved)
+----------------------------------------
+Action: TurnRight
+Step 9  Score -9.0  IN CAVE
+ 4 | >  W  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Stench]
+Reward -1  (ok)
+----------------------------------------
+Action: Shoot
+Step 10  Score -20.0  IN CAVE
+ 4 | >  w  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Scream]
+Reward -11  (wumpus_killed)
+----------------------------------------
+Action: Forward
+Step 11  Score -21.0  IN CAVE
+ 4 | .  >  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (moved)
+----------------------------------------
+Action: Forward
+Step 12  Score -22.0  IN CAVE
+ 4 | .  w  >  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (moved)
+----------------------------------------
+Action: Forward
+Step 13  Score -23.0  IN CAVE
+ 4 | .  w  .  > 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (moved)
+----------------------------------------
+Action: TurnRight
+Step 14  Score -24.0  IN CAVE
+ 4 | .  w  .  v 
+ 3 | .  P  G  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (ok)
+----------------------------------------
+Action: Forward
+Step 15  Score -25.0  IN CAVE
+ 4 | .  w  .  . 
+ 3 | .  P  G  v 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (moved)
+----------------------------------------
+Action: Forward
+Step 16  Score -26.0  IN CAVE
+ 4 | .  w  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  v 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (moved)
+----------------------------------------
+Action: TurnLeft
+Step 17  Score -27.0  IN CAVE
+ 4 | .  w  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  > 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (ok)
+----------------------------------------
+Action: TurnLeft
+Step 18  Score -28.0  IN CAVE
+ 4 | .  w  .  . 
+ 3 | .  P  G  . 
+ 2 | .  P  P  ^ 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (ok)
+----------------------------------------
+Action: Forward
+Step 19  Score -29.0  IN CAVE
+ 4 | .  w  .  . 
+ 3 | .  P  G  ^ 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (moved)
+----------------------------------------
+Action: TurnLeft
+Step 20  Score -30.0  IN CAVE
+ 4 | .  w  .  . 
+ 3 | .  P  G  < 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (ok)
+----------------------------------------
+Action: Forward
+Step 21  Score -31.0  IN CAVE
+ 4 | .  w  .  . 
+ 3 | .  P  <  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Breeze, Glitter]
+Reward -1  (moved)
+----------------------------------------
+Action: Grab
+Step 22  Score -32.0  IN CAVE
+ 4 | .  w  .  . 
+ 3 | .  P  <  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (grabbed_gold)
+----------------------------------------
+Action: TurnRight
+Step 23  Score -33.0  IN CAVE
+ 4 | .  w  .  . 
+ 3 | .  P  ^  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (ok)
+----------------------------------------
+Action: Forward
+Step 24  Score -34.0  IN CAVE
+ 4 | .  w  ^  . 
+ 3 | .  P  .  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (moved)
+----------------------------------------
+Action: TurnLeft
+Step 25  Score -35.0  IN CAVE
+ 4 | .  w  <  . 
+ 3 | .  P  .  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (ok)
+----------------------------------------
+Action: Forward
+Step 26  Score -36.0  IN CAVE
+ 4 | .  <  .  . 
+ 3 | .  P  .  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (moved)
+----------------------------------------
+Action: Forward
+Step 27  Score -37.0  IN CAVE
+ 4 | <  w  .  . 
+ 3 | .  P  .  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (moved)
+----------------------------------------
+Action: TurnLeft
+Step 28  Score -38.0  IN CAVE
+ 4 | v  w  .  . 
+ 3 | .  P  .  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (ok)
+----------------------------------------
+Action: Forward
+Step 29  Score -39.0  IN CAVE
+ 4 | .  w  .  . 
+ 3 | v  P  .  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (moved)
+----------------------------------------
+Action: Forward
+Step 30  Score -40.0  IN CAVE
+ 4 | .  w  .  . 
+ 3 | .  P  .  . 
+ 2 | v  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (moved)
+----------------------------------------
+Action: Forward
+Step 31  Score -41.0  IN CAVE
+ 4 | .  w  .  . 
+ 3 | .  P  .  . 
+ 2 | .  P  P  . 
+ 1 | v  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward -1  (moved)
+----------------------------------------
+Action: Climb
+Step 32  Score 958.0  CLIMBED
+ 4 | .  w  .  . 
+ 3 | .  P  .  . 
+ 2 | .  P  P  . 
+ 1 | .  .  .  . 
+      1  2  3  4
+Percept [None]
+Reward +999  (climbed_with_gold)
+----------------------------------------
+Result: climbed with gold  steps=32  score=958.0
