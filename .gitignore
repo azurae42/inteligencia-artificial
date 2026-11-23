@@ -1,8 +1,8 @@
 .zed/
 full-course
 full-course/*
-workbench/*
-wb*/*
+# workbench/*
+# wb*/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
